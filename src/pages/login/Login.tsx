@@ -6,7 +6,7 @@ function Login() {
     const sendData = (event: any) => {
         event.preventDefault();
         const {email, password } = event.target.elements
-        axios.post('http://192.168.100.12:8080/',{
+        axios.post('http://localhost:8080/',{
             email: email.value,
             password: password.value
         })

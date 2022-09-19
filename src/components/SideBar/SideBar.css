@@ -1,6 +1,6 @@
 .sideBar {
     width: 15vw;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #003E46;
     border-top-right-radius: 5%;
     border-bottom-right-radius: 5%;
@@ -12,5 +12,5 @@
     font-size: x-large;
     color: whitesmoke;
     text-align: center;
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
 }

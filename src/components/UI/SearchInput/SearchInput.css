@@ -11,3 +11,6 @@
     border: none;
     background-color: rgb(241, 241, 241);
 }
+.searchInput::placeholder {
+ text-align: center;
+}
