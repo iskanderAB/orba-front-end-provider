@@ -1,11 +1,19 @@
 import React from 'react';
 import './App.css';
-import Login from './pages/login/Login';
+
+import NavBar from './components/NavBar/NavBar';
+import SideBar from './components/SideBar/SideBar';
+import Container from './components/Container/Container';
+
 
 function App() {
   return (
     <div className="App">
-        <Login/>
+ feature-side-bar
+        <NavBar/>
+        <SideBar/>
+        <Container/>
+
     </div>
   );
 }
