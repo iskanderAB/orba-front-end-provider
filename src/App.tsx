@@ -10,14 +10,14 @@ import Login from './pages/login/Login';
 function App() {
   return (
     <div className="App">
-      <Login/>
-        {/* <SideBar/>
+      {/* <Login/> */}
+        <SideBar/>
         <div style={{
           width: '85vw',
         }}>
           <NavBar/>
           <Container/>
-        </div> */}
+        </div>
     </div>
   );
 }
