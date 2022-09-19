@@ -1,0 +1,15 @@
+.sidebarbuttonSelected {
+    width: 100%;
+    height: 6vh;
+    margin-top: 1vh;
+    border: none;
+    background-color: aliceblue;
+}
+.sidebarbutton {
+    width: 100%;
+    height: 6vh;
+    margin-top: 1vh;
+    border: none;
+    color: white;
+    background-color: transparent;
+}
